@@ -12,5 +12,5 @@ for(let i:number=0;i<size;i++){
 let avg: number=total/size;
 
 console.log("Average "+avg);
- 
+
 
