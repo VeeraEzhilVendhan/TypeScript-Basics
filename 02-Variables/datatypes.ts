@@ -1,0 +1,17 @@
+let found: boolean=false;
+let amount1: number=45;
+let amount2: number=453.54;
+let firstName: string='Arun';
+let lastName: string="Varun";
+let anything: any='hi';
+console.log("print value of anything variable -"+anything);
+anything=564.6;
+console.log("print value of anything variable -"+anything);
+anything=true;
+console.log("print value of anything variable -"+anything);
+console.log("printing other variables value");
+console.log(found);
+console.log("first amount "+amount1);
+console.log("second amount "+amount2);
+console.log("whole name - "+firstName+" "+lastName);
+console.log(`Hi ${firstName} ${lastName}`);
