@@ -1,10 +1,8 @@
 var Customer = /** @class */ (function () {
-    function Customer() {
-    }
-    Customer.prototype.Customer = function (cusname, cusid) {
+    function Customer(cusname, cusid) {
         this.name = cusname;
         this.id = cusid;
-    };
+    }
     Customer.prototype.getName = function () {
         return this.name;
     };
@@ -19,10 +17,10 @@ var Customer = /** @class */ (function () {
     };
     return Customer;
 }());
-var customer = new Customer();
-customer.id = 5;
-customer.name = "arun";
+var customer = new Customer("arun", 6);
+/*customer.id=5;
+customer.name="arun";
 console.log(customer);
 customer.setId(6);
-customer.setName("varun");
+customer.setName("varun");*/
 console.log(customer);

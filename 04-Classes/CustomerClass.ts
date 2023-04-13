@@ -4,7 +4,7 @@ class Customer{
      name:string;
      id:number;
 
-    Customer(cusname:string, cusid:number){
+    constructor(cusname:string, cusid:number){
         this.name=cusname;
         this.id=cusid;
     }
@@ -26,10 +26,10 @@ class Customer{
     }
 }
 
-let customer=new Customer();
-customer.id=5;
+let customer=new Customer("arun",6);
+/*customer.id=5;
 customer.name="arun";
 console.log(customer);
 customer.setId(6);
-customer.setName("varun");
+customer.setName("varun");*/
 console.log(customer);
